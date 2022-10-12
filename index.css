@@ -1,7 +1,7 @@
 
 body{
     width:100vw;
-    height:100vh;
+    height:auto;
     box-sizing: border-box;
     display:flex;
     flex-direction: column;     
@@ -10,13 +10,15 @@ body{
 }
 main{
     height: 70%;
-    width:50%;
+    width:60%;
     display:flex;
-    flex-direction: row;    
-    justify-content: center;
-    align-items: center;
+    margin:auto;
+    margin-top:10%;
 }
+.card{
+    min-width:250px;
 
+}
 #cyan{
     background-color: hsl(184, 100%, 22%);
 }
@@ -62,6 +64,10 @@ button{
         
         flex-direction: column;
         
+    }
+    .card{
+        min-width: 350px;
+    
     }
     
 }
